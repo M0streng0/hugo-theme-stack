@@ -1,14 +1,13 @@
 /*
-*   Style: monokai
-*   https://xyproto.github.io/splash/docs/monokai.html
+*   Style: Nord Dark
 */
 
-$color: #f8f8f2;
-$background-color: #272822;
-$error-color: #bb0064;
-$keyword-color: #66d9ef;
+$color: #ECEFF4;
+$background-color: #2E3440;
+$error-color: #BF616A;
+$keyword-color: #81A1C1;
 $text-color: $color;
-$name-color: #a6e22e;
-$literal-color: #e6db74;
+$name-color: #A3BE8C;
+$literal-color: #EBCB8B;
 
 @import "common.scss";

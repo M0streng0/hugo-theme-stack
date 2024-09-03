@@ -1,4 +1,4 @@
-$defaultTagBackgrounds: #8ea885, #df7988, #0177b8, #ffb900, #6b69d6;
+$defaultTagBackgrounds: #A3BE8C, #BF616A, #5E81AC, #EBCB8B, #B48EAD;
 $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 
 /*
@@ -11,27 +11,27 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --main-top-padding: 50px;
     }
 
-    --body-background: #f5f5fa;
+    --body-background: #E5E9F0;
 
-    --accent-color: #34495e;
-    --accent-color-darker: #2c3e50;
-    --accent-color-text: #fff;
-    --body-text-color: #707070;
+    --accent-color: #434C5E;
+    --accent-color-darker: #3B4252;
+    --accent-color-text: #ECEFF4;
+    --body-text-color: #4C566A;
 
     --tag-border-radius: 4px;
 
     --section-separation: 40px;
 
-    --scrollbar-thumb: hsl(0, 0%, 85%);
+    --scrollbar-thumb: hsl(220, 14%, 71%);
     --scrollbar-track: var(--body-background);
 
     &[data-scheme="dark"] {
-        --body-background: #303030;
-        --accent-color: #ecf0f1;
-        --accent-color-darker: #bdc3c7;
-        --accent-color-text: #000;
-        --body-text-color: rgba(255, 255, 255, 0.7);
-        --scrollbar-thumb: hsl(0, 0%, 40%);
+        --body-background: #2E3440;
+        --accent-color: #D8DEE9;
+        --accent-color-darker: #4C566A;
+        --accent-color-text: #2E3440;
+        --body-text-color: rgba(236, 239, 244, 0.7);
+        --scrollbar-thumb: hsl(220, 14%, 31%);
         --scrollbar-track: var(--body-background);
     }
 }
@@ -51,13 +51,13 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Card style
 */
 :root {
-    --card-background: #fff;
-    --card-background-selected: #eaeaea;
+    --card-background: #ECEFF4;
+    --card-background-selected: #E5E9F0;
 
-    --card-text-color-main: #000;
-    --card-text-color-secondary: #747474;
-    --card-text-color-tertiary: #767676;
-    --card-separator-color: rgba(218, 218, 218, 0.5);
+    --card-text-color-main: #2E3440;
+    --card-text-color-secondary: #4C566A;
+    --card-text-color-tertiary: #4C566A;
+    --card-separator-color: rgba(76, 86, 106, 0.5);
 
     --card-border-radius: 10px;
 
@@ -78,12 +78,12 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     }
 
     &[data-scheme="dark"] {
-        --card-background: #424242;
+        --card-background: #3B4252;
         --card-background-selected: rgba(255, 255, 255, 0.16);
-        --card-text-color-main: rgba(255, 255, 255, 0.9);
-        --card-text-color-secondary: rgba(255, 255, 255, 0.7);
-        --card-text-color-tertiary: rgba(255, 255, 255, 0.5);
-        --card-separator-color: rgba(255, 255, 255, 0.12);
+        --card-text-color-main: rgba(236, 239, 244, 0.9);
+        --card-text-color-secondary: rgba(236, 239, 244, 0.7);
+        --card-text-color-tertiary: rgba(236, 239, 244, 0.5);
+        --card-separator-color: rgba(236, 239, 244, 0.12);
     }
 }
 
@@ -106,33 +106,33 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 */
 :root {
     --blockquote-border-size: 4px;
-    --blockquote-background-color: rgb(248 248 248);
+    --blockquote-background-color: #E5E9F0;
 
     --heading-border-size: 4px;
 
-    --link-background-color: 189, 195, 199;
+    --link-background-color: 143, 188, 187; /* Frost: #8FBCBB */
     --link-background-opacity: 0.5;
     --link-background-opacity-hover: 0.7;
 
-    --pre-background-color: #272822;
-    --pre-text-color: #f8f8f2;
+    --pre-background-color: #2E3440;
+    --pre-text-color: #ECEFF4;
 
-    --code-background-color: rgba(0, 0, 0, 0.12);
-    --code-text-color: #808080;
+    --code-background-color: rgba(46, 52, 64, 0.12);
+    --code-text-color: #4C566A;
 
-    --table-border-color: #dadada;
-    --tr-even-background-color: #efefee;
+    --table-border-color: #4C566A;
+    --tr-even-background-color: #E5E9F0;
 
-    --kbd-border-color: #dadada;
+    --kbd-border-color: #4C566A;
 
     &[data-scheme="dark"] {
-        --code-background-color: #272822;
-        --code-text-color: rgba(255, 255, 255, 0.9);
+        --code-background-color: #2E3440;
+        --code-text-color: rgba(236, 239, 244, 0.9);
 
-        --table-border-color: #717171;
-        --tr-even-background-color: #545454;
+        --table-border-color: #4C566A;
+        --tr-even-background-color: #434C5E;
 
-        --blockquote-background-color: rgb(75 75 75);
+        --blockquote-background-color: #434C5E;
     }
 }
 
@@ -141,22 +141,22 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Thanks to https://www.figma.com/community/plugin/744987207861965946/Shadow-picker
 */
 :root {
-    --shadow-l1: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
-    --shadow-l2: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
-    --shadow-l3: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
-    --shadow-l4: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
-        0px 0px 1px rgba(0, 0, 0, 0.04);
+    --shadow-l1: 0px 4px 8px rgba(46, 52, 64, 0.04), 0px 0px 2px rgba(46, 52, 64, 0.06), 0px 0px 1px rgba(46, 52, 64, 0.04);
+    --shadow-l2: 0px 10px 20px rgba(46, 52, 64, 0.04), 0px 2px 6px rgba(46, 52, 64, 0.04), 0px 0px 1px rgba(46, 52, 64, 0.04);
+    --shadow-l3: 0px 10px 20px rgba(46, 52, 64, 0.04), 0px 2px 6px rgba(46, 52, 64, 0.04), 0px 0px 1px rgba(46, 52, 64, 0.04);
+    --shadow-l4: 0px 24px 32px rgba(46, 52, 64, 0.04), 0px 16px 24px rgba(46, 52, 64, 0.04), 0px 4px 8px rgba(46, 52, 64, 0.04),
+        0px 0px 1px rgba(46, 52, 64, 0.04);
 }
 
 [data-scheme="light"] {
-    --pre-text-color: #272822;
-    --pre-background-color: #fafafa;
+    --pre-text-color: #2E3440;
+    --pre-background-color: #E5E9F0;
     @import "partials/highlight/light.scss";
 }
 
 [data-scheme="dark"] {
-    --pre-text-color: #f8f8f2;
-    --pre-background-color: #272822;
+    --pre-text-color: #ECEFF4;
+    --pre-background-color: #2E3440;
     @import "partials/highlight/dark.scss";
 }
 

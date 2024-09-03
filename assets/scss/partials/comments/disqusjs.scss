@@ -12,7 +12,7 @@
 
 #dsqjs a {
     text-decoration: none;
-    color: #076dd0
+    color: #5E81AC
 }
 
 #dsqjs .dsqjs-hide {
@@ -41,7 +41,7 @@
 }
 
 #dsqjs .dsqjs-bullet:after {
-    color: #c2c6cc;
+    color: #D8DEE9;
     content: "·";
     font-weight: 700
 }
@@ -56,7 +56,7 @@
 #dsqjs .dsqjs-nav {
     position: relative;
     margin: 0 0 20px;
-    border-bottom: 2px solid #e7e9ee
+    border-bottom: 2px solid #E5E9F0
 }
 
 #dsqjs ol,#dsqjs ul {
@@ -70,7 +70,7 @@
     line-height: 1.5;
     word-wrap: break-word;
     overflow: hidden;
-    color: #2a2e2e;
+    color: #3B4252;
     margin-bottom: 6px
 }
 
@@ -79,7 +79,7 @@
     text-transform: capitalize;
     font-size: 15px;
     padding: 12px 8px;
-    color: #656c7a;
+    color: #4C566A;
     display: block;
     margin: 0 15px 0 0;
     font-weight: 700;
@@ -93,14 +93,14 @@
 }
 
 #dsqjs .dsqjs-tab-active {
-    color: #2a2e2e
+    color: #2E3440
 }
 
 #dsqjs .dsqjs-tab-active>span:after {
     content: " ";
     display: block;
     height: 2px;
-    background-color: #076dd0!important;
+    background-color: #5E81AC!important;
     position: absolute;
     bottom: -5px;
     left: 0;
@@ -116,7 +116,7 @@
     float: left;
     margin-right: 10px;
     position: relative;
-    background: #dbdfe4;
+    background: #E5E9F0;
     padding: 0;
     display: block;
     border-radius: 4px
@@ -136,13 +136,13 @@
 }
 
 #dsqjs .dsqjs-post-list .dsqjs-post-header .dsqjs-post-author {
-    color: #656c7a;
+    color: #4C566A;
     font-weight: 700
 }
 
 #dsqjs .dsqjs-post-list .dsqjs-post-header .dsqjs-admin-badge {
-    color: #fff;
-    background: #687a86;
+    color: #ECEFF4;
+    background: #5E81AC;
     padding: 1px 3px;
     margin-left: 4px;
     font-size: 12px;
@@ -158,7 +158,7 @@
 #dsqjs .dsqjs-post-list .dsqjs-post-header .dsqjs-meta {
     display: inline-block;
     font-size: 12px;
-    color: #656c7a
+    color: #4C566A
 }
 
 #dsqjs .dsqjs-post-body {
@@ -166,14 +166,14 @@
     line-height: 1.5;
     word-wrap: break-word;
     overflow: hidden;
-    color: #2a2e2e
+    color: #2E3440
 }
 
 #dsqjs .dsqjs-post-body code {
     padding: .2em .4em;
     margin: 0;
     font-size: 85%;
-    background: #f5f5f5;
+    background: #D8DEE9;
     color: inherit;
     border-radius: 3px
 }
@@ -184,15 +184,15 @@
     font-size: 85%;
     line-height: 1.45;
     border-radius: 3px;
-    background: #f5f5f5;
+    background: #D8DEE9;
     margin: .5em 0
 }
 
 #dsqjs .dsqjs-post-body blockquote {
     padding: 0 .8em;
     margin: .5em 0;
-    color: #6a737d;
-    border-left: .25em solid #dfe2e5
+    color: #4C566A;
+    border-left: .25em solid #E5E9F0
 }
 
 #dsqjs .dsqjs-post-body p:last-child {
@@ -215,8 +215,8 @@
     text-align: center;
     padding: 11px 14px;
     margin: 0 0 24px;
-    background: #687a86;
-    color: #fff;
+    background: #4C566A;
+    color: #ECEFF4;
     cursor: pointer
 }
 
@@ -229,11 +229,11 @@
     line-height: 1.5;
     padding-top: 10px;
     padding-right: 10px;
-    border-top: 2px solid #e7e9ee;
+    border-top: 2px solid #E5E9F0;
     margin-top: 12px;
     font-weight: 700;
     font-size: 16px;
-    color: #555
+    color: #4C566A
 }
 
 #dsqjs .dsqjs-disqus-logo {
@@ -258,8 +258,8 @@
 }
 
 #dsqjs .dsqjs-order-radio:checked+.dsqjs-order-label {
-    color: #fff;
-    background-color: #888
+    color: #ECEFF4;
+    background-color: #4C566A
 }
 
 #dsqjs .dsqjs-order-label {
@@ -270,7 +270,7 @@
     font-size: 12px;
     border-radius: 2px;
     padding: 0 5px;
-    background-color: #dcdcdc;
+    background-color: #D8DEE9;
     cursor: pointer
 }
 
@@ -282,7 +282,7 @@
 }
 
 #dsqjs p.dsqjs-has-more a.dsqjs-has-more-btn {
-    color: #656c7a;
+    color: #4C566A;
     text-decoration: underline;
     cursor: pointer
 }
@@ -315,32 +315,32 @@
 
 :root[data-scheme="dark"]  {
     #dsqjs {
-        --t-s: rgba(255,255,255,0.9);
-        --alt: #3e4b5e;
-        --link-hover: #47a2e0;
-        --hover-bg: #3e4b5e;
-        --tag: #3e4b5e;
-        --border: #435266;
-        --pre: #3c495b;
-        --c-bg: #2f3947;
-        --code: #c3c7cb;
-        --kbd: #4e5f77;
-        --hl: #abb2bf;
-        --hlc: #808895;
-        --hlk: #c678dd;
-        --hln: #e06c75;
-        --hll: #56b6c2;
-        --hls: #98c379;
-        --hlt: #e6c07b;
-        --hlv: #d19a66;
-        --bg: #181c27;
-        --main: #252d38;
-        --t: rgba(255,255,255,0.86);
-        --t-l: rgba(255,255,255,0.66);
-        --logo: #fff;
-        --link: #38a3fd;
-        --title: rgba(255,255,255,0.92);
-        --fab: #364151;
+        --t-s: rgba(236,239,244,0.9);
+        --alt: #3B4252;
+        --link-hover: #88C0D0;
+        --hover-bg: #3B4252;
+        --tag: #3B4252;
+        --border: #4C566A;
+        --pre: #3B4252;
+        --c-bg: #2E3440;
+        --code: #D8DEE9;
+        --kbd: #4C566A;
+        --hl: #E5E9F0;
+        --hlc: #4C566A;
+        --hlk: #B48EAD;
+        --hln: #BF616A;
+        --hll: #81A1C1;
+        --hls: #A3BE8C;
+        --hlt: #EBCB8B;
+        --hlv: #D08770;
+        --bg: #2E3440;
+        --main: #3B4252;
+        --t: rgba(236,239,244,0.86);
+        --t-l: rgba(236,239,244,0.66);
+        --logo: #ECEFF4;
+        --link: #81A1C1;
+        --title: rgba(236,239,244,0.92);
+        --fab: #434C5E;
         --shadow: none;
     }
 
@@ -381,7 +381,7 @@
     }
 
     #dsqjs .dsqjs-tab-active>span:after {
-        background-color: #2e9fff
+        background-color: #88C0D0
     }
 
     #dsqjs .dsqjs-footer,#dsqjs .dsqjs-meta {
